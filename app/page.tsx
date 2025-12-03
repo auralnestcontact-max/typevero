@@ -4,6 +4,7 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-neutral-950 text-white flex items-center justify-center p-6">
       <div className="w-full max-w-3xl space-y-10">
+        
         {/* HERO */}
         <section className="bg-neutral-900/80 border border-neutral-800 rounded-3xl p-8 md:p-10 shadow-2xl">
           <p className="text-xs uppercase tracking-[0.2em] text-neutral-500 mb-4">
@@ -36,38 +37,31 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* PUNTI DI FORZA */}
+        {/* FEATURES */}
         <section className="grid md:grid-cols-3 gap-4">
           <div className="bg-neutral-900/70 border border-neutral-800 rounded-2xl p-4">
-            <h2 className="font-semibold mb-2 text-sm md:text-base">
-              🌍 Multilingua
-            </h2>
+            <h2 className="font-semibold mb-2 text-sm md:text-base">🌍 Multilingua</h2>
             <p className="text-neutral-400 text-xs md:text-sm">
               Allenati digitando in 5 lingue diverse con testi naturali.
             </p>
           </div>
 
           <div className="bg-neutral-900/70 border border-neutral-800 rounded-2xl p-4">
-            <h2 className="font-semibold mb-2 text-sm md:text-base">
-              📊 Statistiche chiare
-            </h2>
+            <h2 className="font-semibold mb-2 text-sm md:text-base">📊 Statistiche chiare</h2>
             <p className="text-neutral-400 text-xs md:text-sm">
               WPM, accuratezza e storico degli ultimi test sempre visibili.
             </p>
           </div>
 
           <div className="bg-neutral-900/70 border border-neutral-800 rounded-2xl p-4">
-            <h2 className="font-semibold mb-2 text-sm md:text-base">
-              🧘 Interfaccia rilassante
-            </h2>
+            <h2 className="font-semibold mb-2 text-sm md:text-base">🧘 Interfaccia rilassante</h2>
             <p className="text-neutral-400 text-xs md:text-sm">
-              Tema scuro, colori morbidi e nessuna distrazione: solo tu e il
-              testo.
+              Tema scuro, colori morbidi e nessuna distrazione: solo tu e il testo.
             </p>
           </div>
         </section>
 
-        {/* CTA FINALE */}
+        {/* CTA */}
         <section className="text-center text-neutral-400 text-xs md:text-sm">
           Pronto a iniziare?{" "}
           <Link
